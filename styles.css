@@ -4,3 +4,50 @@ html{
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+header {
+	display:flex;
+	justify-content: space-between;
+}
+#etsyHeaderleft{
+	
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+#etsyHeaderright {
+	
+	
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+#etsyHeader li {
+	display: inline;
+	color:white;
+}
+
+#etsyNavPanel {
+	display: block;
+	list-style-type: none;
+	margin:0;
+	overflow: hidden;
+	border-top: 1px solid #b0e0e6;
+	border-bottom: 1px solid #b0e0e6;
+	line-height: 50px;
+	
+}
+
+#etsyNavPanel li{
+	display: inline;
+	float:left;
+	padding:0px 10px;
+	
+}
