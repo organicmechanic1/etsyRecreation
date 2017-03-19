@@ -162,12 +162,13 @@ a {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	height: 30px;
 	
 }
 
 .nav-right{
 	
-	position: relative;
+	
 	display: inline-block;
 }
 .clearfix {
@@ -187,13 +188,22 @@ a {
 	display: inline;
 }
 
+#picContainer{
+	position: absolute;
+	top:52px;
+	width:1110px;
+}
+
 #picGallery {
-	clear:left; 
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #picGallery li{
+	display: inline;
 	height: 350px;
 	width: 350px;
+	border:1px solid black;
 }
 
  
