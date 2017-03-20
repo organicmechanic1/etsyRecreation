@@ -46,8 +46,34 @@ header {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	line-height: 2px;
+	
 
+}
+.sell {
+	margin: 15px 20px 0px 20px;
+	padding: 0 0;
+}
+.register{
+	margin: 15px 20px 0px 20px;
+	padding: 0 0;
+}
+.signin{
+	margin: 10px 10px;
+	padding: 0px 0px;
+}
+.cart {
+	border-left: 1px solid #ccc;
+	margin:2px 0px;
+	padding: 2px 12px;
+	text-align: center;
+	display: inline-block;
+}
+.cart-icon {
+	vertical-align: middle;
+}
+.my-text {
+	display: block;
+	font-family: "Courier-new";
 }
 
 
@@ -202,8 +228,9 @@ a {
 }
 
 #picContainer{
+	margin: 52px 0px 0px -39px;
 	position: absolute;
-	top:52px;
+/*	top:52px; */
 	width:1110px;
 }
 
@@ -214,8 +241,8 @@ a {
 
 #picGallery li{
 	display: inline;
-	height: 350px;
-	width: 350px;
+	height: 260px;
+	width: 260px;
 	border:1px solid black;
 }
 
