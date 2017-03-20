@@ -8,19 +8,35 @@ body {
 	
 	
 }
+
 header {
 	display:flex;
 	justify-content: space-between;
+	margin:26px;
+	padding: 0;
+	
 }
+
+
 #etsyHeaderleft{
 	
 	display: flex;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	
+	
 	
 }
+
+#etsyHeaderleft li:nth-child(1){
+	margin-right: 37px;
+}
+
+.button {
+	background-color: (52, 168, 196);
+}
+
 
 #etsyHeaderright {
 	
@@ -30,13 +46,10 @@ header {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	line-height: 2px;
 
 }
 
-#etsyHeader li {
-	display: inline;
-	color:white;
-}
 
 #etsyNavPanel {
 	display: block;
